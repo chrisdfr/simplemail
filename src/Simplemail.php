@@ -7,7 +7,7 @@
  * Initialise l'envoi d'un message avec PHPMailer
  */
 
-namespace Blackfox\Simplemail;
+namespace ChrisDfr\Simplemail;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
