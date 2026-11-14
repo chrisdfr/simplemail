@@ -18,5 +18,13 @@
             "email": "chrisdfr@proximus.be"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories": [{
+        "name": "package",
+        "type": "path",
+        "url": "/home/christophe/dev/php/configjson"
+    }],
+    "require-dev": {
+        "chrisdfr/configjson": "@dev"
+    }
 }

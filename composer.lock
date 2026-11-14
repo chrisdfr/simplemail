@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1bedf096a075de0e1732e20f70caf7c",
+    "content-hash": "1d2c46f36319efb5aa30eb14170377ba",
     "packages": [
         {
             "name": "phpmailer/phpmailer",
@@ -89,10 +89,50 @@
             "published-time": "2025-10-15T16:49:35+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "chrisdfr/configjson",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/home/christophe/dev/php/configjson",
+                "reference": "661536a425fda9b1beebf59e3d360d9b75964e68"
+            },
+            "require": {
+                "php": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ChrisDfr\\ConfigJSON\\": "src/"
+                }
+            },
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Dufour",
+                    "email": "chrisdfr@proximus.be"
+                }
+            ],
+            "description": "Librairie de configuration d'une application php à partir d'un fichier JSON",
+            "keywords": [
+                "config",
+                "configuration",
+                "json",
+                "php"
+            ],
+            "transport-options": {
+                "relative": false
+            }
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "chrisdfr/configjson": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
