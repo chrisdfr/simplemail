@@ -34,10 +34,6 @@ class Simplemail{
      */
     public static function getMailer(string $Host, string $Username, string $Password, bool $exceptions = false, bool $SMTPDebug = false): PHPMailer
     {
-        if(empty($Host) || empty($Username) || empty($Password)) {
-			throw new \ValueError("Les arguments ne peuvent pas être des chaines de caractères vide !");
-		}
-
         if(is_null(self::$mail)) {
             self::$mail = new PHPMailer($exceptions);
 
