@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d2c46f36319efb5aa30eb14170377ba",
+    "content-hash": "eea41f3818643269bf296ef28ce85706",
     "packages": [
         {
             "name": "phpmailer/phpmailer",
@@ -92,11 +92,17 @@
     "packages-dev": [
         {
             "name": "chrisdfr/configjson",
-            "version": "dev-main",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisdfr/configjson.git",
+                "reference": "f20b6c5bd339e2a44f945e2a98e4eb559c1ad23d"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/christophe/dev/php/configjson",
-                "reference": "661536a425fda9b1beebf59e3d360d9b75964e68"
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisdfr/configjson/zipball/f20b6c5bd339e2a44f945e2a98e4eb559c1ad23d",
+                "reference": "f20b6c5bd339e2a44f945e2a98e4eb559c1ad23d",
+                "shasum": ""
             },
             "require": {
                 "php": "^8.5"
@@ -107,6 +113,7 @@
                     "ChrisDfr\\ConfigJSON\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL-2.1-or-later"
             ],
@@ -123,16 +130,17 @@
                 "json",
                 "php"
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/chrisdfr/configjson/issues",
+                "source": "https://github.com/chrisdfr/configjson/tree/v1.0.0"
+            },
+            "time": "2026-11-14T10:17:34+00:00",
+            "published-time": "2026-11-14T13:10:24+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "chrisdfr/configjson": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},

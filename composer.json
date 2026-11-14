@@ -19,12 +19,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "repositories": [{
-        "name": "package",
-        "type": "path",
-        "url": "/home/christophe/dev/php/configjson"
-    }],
     "require-dev": {
-        "chrisdfr/configjson": "@dev"
+        "chrisdfr/configjson": "^1.0"
     }
 }
